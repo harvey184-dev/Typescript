@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chi Tiết Sản Phẩm</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <style>
+        .product-img {
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="row" id="chitiet">
+
+        </div>
+</body>
+<script type="module">
+    import { chitiet } from '../dist/app.js'
+
+    let params = new URLSearchParams(location.search)
+    let id = Number(params.get('id'))
+    console.log(id);
+
+    document.getElementById('ct').innerHTML = await chitiet(id)
+</script>
+
+</html>

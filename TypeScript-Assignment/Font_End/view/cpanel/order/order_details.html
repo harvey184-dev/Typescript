@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="website icon" type="jpg" href="../public/images/icon.jpg">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script>
+        function checkLoginStatus() {
+            const isLoggedIn = localStorage.getItem('isLoggedIn');
+            if (!isLoggedIn) {
+                window.location.href = '../../login.html';
+            }
+        }
+
+        checkLoginStatus();
+    </script>
+
+</head>
+
+<body>
+
+    <div class="container">
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <a class="navbar-brand" href="../index.html">Admin</a>
+                </div>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="../index.html">Trang chủ</a></li>
+
+                    <li><a href="#">Thông tin website</a></li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Danh mục Bài viết
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../post/add_category.html">Thêm</a></li>
+                            <li><a href="../post/list_category.html">Liệt kê</a></li>
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bài viết
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../post/add_post.html">Thêm</a></li>
+                            <li><a href="../post/list_post.html">Liệt kê</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Danh mục sản phẩm
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../product/add_category.html">Thêm</a></li>
+                            <li><a href="../productlist_category.html">Liệt kê</a></li>
+
+                        </ul>
+                    </li>
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sản phẩm
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="../product/add_product.html">Thêm</a></li>
+                            <li><a href="../product/list_product.html">Liệt kê</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li class="dropdown">
+                        <a class="dropdown-toggle" data-toggle="dropdown" href="#">Đơn hàng
+                            <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+
+                            <li><a href="order.html">Liệt kê</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li><a id="dx">Đăng xuất</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <h3 style="text-align: center;">Liệt kê đơn hàng chi tiết</h3>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Tên người đặt</th>
+                    <th>Email</th>
+                    <th>Số điện thoại</th>
+                    <th>Địa chỉ</th>
+                    <th>Ghi chú</th>
+
+                </tr>
+            </thead>
+            <tbody id="dhct1">
+
+            </tbody>
+        </table>
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th>Id</th>
+                    <th>Tên sản phẩm</th>
+                    <th>Hình ảnh</th>
+                    <th>Số lượng</th>
+                    <th>Đơn giá</th>
+                    <th>Thành tiền</th>
+
+                </tr>
+            </thead>
+            <tbody id="dhct">
+
+
+            </tbody>
+            <form method="POST">
+                <tr>
+                    <td align="right" colspan="6" id="tt">
+
+                    </td>
+                </tr>
+            </form>
+        </table>
+
+    </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+<script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+<script type="text/javascript">
+
+    CKEDITOR.replace('editor');
+
+</script>
+<script type="module">
+    import { dhct, dhct1, tt } from '../../../model/admin-order.js'
+    import { dx } from '../../../model/login.js'
+
+    document.getElementById('dx').addEventListener('click', dx);
+    let params = new URLSearchParams(location.search)
+    let order_code = Number(params.get('order_code'))
+    document.getElementById('dhct1').innerHTML = await dhct1(order_code)
+    document.getElementById('dhct').innerHTML = await dhct(order_code)
+    document.getElementById('tt').innerHTML = await tt(order_code)
+</script>
+
+</html>

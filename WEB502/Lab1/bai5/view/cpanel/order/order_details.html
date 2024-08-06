@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diệp Thiện Ngôn</title>
+</head>
+
+<body>
+
+    <h1>
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Admin</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        </head>
+        <style>
+            ul.nav.navbar-nav li a {
+                font-size: 15px;
+            }
+        </style>
+
+        <body>
+
+            <div class="container">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="../home.html">Admin</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="../home.html">Trang chủ</a></li>
+
+                            <li><a href="#">Thông tin website</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Danh mục Bài viết
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../post/themdm.html">Thêm</a></li>
+                                    <li><a href="../post/lietkedm.html">Liệt kê</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bài viết
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../post/themtin.html">Thêm</a></li>
+                                    <li><a href="../post/lietketin.html">Liệt kê</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Danh mục sản phẩm
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../product/themdm.html">Thêm</a></li>
+                                    <li><a href="../product/lietkedm.html">Liệt kê</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sản phẩm
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../product/themsp.html">Thêm</a></li>
+                                    <li><a href="../product/lietkesp.html">Liệt kê</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Đơn hàng
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+
+                                    <li><a href="order.html">Liệt kê</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li><a href="../login.html">Đăng xuất</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <h3 style="text-align: center;">Liệt kê đơn hàng chi tiết</h3>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Tên người đặt</th>
+                            <th>Email</th>
+                            <th>Số điện thoại</th>
+                            <th>Địa chỉ</th>
+                            <th>Ghi chú</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>1</td>
+                            <td>Diệp Thiện Ngôn</td>
+                            <td>diepngon182004@Gmail.com</td>
+                            <td>0878623892</td>
+                            <td>Củ Chi</td>
+                            <td>11</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <table class="table table-striped">
+                    <thead>
+                        <tr>
+                            <th>Id</th>
+                            <th>Tên sản phẩm</th>
+                            <th>Hình ảnh</th>
+                            <th>Số lượng</th>
+                            <th>Đơn giá</th>
+                            <th>Thành tiền</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+
+                        <tr>
+                            <td>1</td>
+                            <td>Apple Pencil 2</td>
+                            <td><img src="../../../public/uploads/product/but-cam-ung-apple-pencil-2-mu8f2-180722-105300-600x6001697474249.jpeg"
+                                    height="100" width="100"></td>
+                            <td>1</td>
+                            <td>3.270.000đ</td>
+                            <td>3.270.000đ</td>
+
+                        </tr>
+                        <form method="POST" action="order_details.html">
+                            <tr>
+                                <td><input type="submit" name="update_order" value="Đã xử lý" class="btn btn-default">
+                                </td>
+                                <td align="right" colspan="6">Tổng tiền : 3.270.000đ</td>
+                            </tr>
+                        </form>
+                    </tbody>
+                </table>
+            </div>
+
+
+        </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+        <script type="text/javascript">
+
+            CKEDITOR.replace('editor');
+
+        </script>
+
+        </html>
+    </h1>
+
+</body>
+
+</html>

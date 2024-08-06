@@ -1,0 +1,88 @@
+{
+    "hinhdep": [
+        {
+            "id": 1,
+            "ten": "Hitokage",
+            "url": "1.png",
+            "mota": "Hitokage",
+            "hinh": 1
+        },
+        {
+            "id": 2,
+            "ten": "Zennigame",
+            "url": "2.png",
+            "mota": "Zennigame",
+            "hinh": 2
+        },
+        {
+            "id": 3,
+            "ten": "Fushigidane",
+            "url": "3.png",
+            "mota": "Fushigidane",
+            "hinh": 3
+        },
+        {
+            "id": 4,
+            "ten": "Tsutarja",
+            "url": "4.png",
+            "mota": "Tsutarja",
+            "hinh": 4
+        },
+        {
+            "id": 5,
+            "ten": "Pokabu",
+            "url": "5.png",
+            "mota": "Pokabu",
+            "hinh": 5
+        },
+        {
+            "id": 6,
+            "ten": "Mijumaru",
+            "url": "6.png",
+            "mota": "Mijumaru",
+            "hinh": 6
+        },
+        {
+            "id": 7,
+            "ten": "Hitokage",
+            "url": "1.png",
+            "mota": "Hitokage",
+            "hinh": 1
+        },
+        {
+            "id": 8,
+            "ten": "Zennigame",
+            "url": "2.png",
+            "mota": "Zennigame",
+            "hinh": 2
+        },
+        {
+            "id": 9,
+            "ten": "Fushigidane",
+            "url": "3.png",
+            "mota": "Fushigidane",
+            "hinh": 3
+        },
+        {
+            "id": 10,
+            "ten": "Tsutarja",
+            "url": "4.png",
+            "mota": "Tsutarja",
+            "hinh": 4
+        },
+        {
+            "id": 11,
+            "ten": "Pokabu",
+            "url": "5.png",
+            "mota": "Pokabu",
+            "hinh": 5
+        },
+        {
+            "id": 12,
+            "ten": "Mijumaru",
+            "url": "6.png",
+            "mota": "Mijumaru",
+            "hinh": 6
+        }
+    ]
+}

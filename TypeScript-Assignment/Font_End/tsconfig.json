@@ -1,0 +1,8 @@
+{
+    "compilerOptions": {
+        "outDir": "model",
+        "target": "ES2022",
+        "removeComments": true,
+        "noEmit": false
+    }
+}

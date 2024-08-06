@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "lib": [
+            "es5",
+            "es6",
+            "DOM"
+        ],
+        "removeComments": true,
+        //   "module": "commonjs",
+        //   "strict": true,
+        "outDir": "dist",
+        //   "sourceMap": true
+    }
+}

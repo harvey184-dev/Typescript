@@ -1,0 +1,28 @@
+{
+    "phim": [
+        {
+            "id": "1",
+            "ten": "GODZILLA X KONG: ĐẾ CHẾ MỚI",
+            "anh": "sp1.jpg",
+            "mota": "Kong và Godzilla - hai sinh vật vĩ đại huyền thoại, hai kẻ thủ truyền kiếp sẽ cùng bắt tay thực thi một sứ mệnh chung mang tính sống còn để bảo vệ nhân loại, và trận chiến gắn kết chúng với loài người mãi mãi sẽ bắt đầu."
+        },
+        {
+            "id": "2",
+            "ten": "THANH XUÂN 18x2: LỮ TRÌNH HƯỚNG VỀ EM",
+            "anh": "sp2.jpg",
+            "mota": "Ký ức tình đầu ùa về khi Jimmy nhận được tấm bưu thiếp từ Ami. Cậu quyết định một mình bước lên chuyến tàu đến Nhật Bản gặp lại người con gái cậu đã bỏ lỡ 18 năm trước. Mối tình day dứt thời thanh xuân, liệu sẽ có một kết cục nào tốt đẹp khi đoàn tụ?"
+        },
+        {
+            "id": "3",
+            "ten": "KUNG FU PANDA 4",
+            "anh": "sp3.jpg",
+            "mota": "Sau khi Po được chọn trở thành Thủ lĩnh tinh thần của Thung lũng Bình Yên, Po cần tìm và huấn luyện một Chiến binh Rồng mới, trong khi đó một mụ phù thủy độc ác lên kế hoạch triệu hồi lại tất cả những kẻ phản diện mà Po đã đánh bại về cõi linh hồn."
+        },
+        {
+            "id": "4",
+            "ten": "BIỆT ĐỘI SĂN MA: KỶ NGUYÊN BĂNG GIÁ",
+            "anh": "sp4.jpg",
+            "mota": "Sau các sự kiện của Ghostbusters: Afterlife, gia đình Spengler đang tìm kiếm cuộc sống mới ở Thành phố New York. Nhóm săn ma bao gồm Ray, Winston và Podcast sử dụng công nghệ mới để chống lại các mối đe dọa chết người cổ xưa đang ẩn náu trong các vật dụng hàng ngày. Thế nhưng, họ sẽ phải đối đầu với một thế lực đen tối hùng mạnh mới."
+        }
+    ]
+}

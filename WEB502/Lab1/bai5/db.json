@@ -1,0 +1,559 @@
+{
+    "tbl_admin": [
+        {
+            "admin_id": "2",
+            "username": "admin",
+            "password": "e10adc3949ba59abbe56e057f20f883e"
+        },
+        {
+            "admin_id": "3",
+            "username": "ps36014",
+            "password": "715b1c4c97679dfe3f19e340ee59a23f"
+        }
+    ],
+    "tbl_category_product": [
+        {
+            "id_category_product": "36",
+            "title_category_product": "iPhone",
+            "desc_category_product": "Điện thoại di động"
+        },
+        {
+            "id_category_product": "37",
+            "title_category_product": "Macbook",
+            "desc_category_product": "Máy tính xách tay"
+        },
+        {
+            "id_category_product": "38",
+            "title_category_product": "iPad",
+            "desc_category_product": "Máy tính bảng"
+        },
+        {
+            "id_category_product": "39",
+            "title_category_product": "Watch",
+            "desc_category_product": "Đồng hồ đeo tay thông minh"
+        },
+        {
+            "id_category_product": "40",
+            "title_category_product": "Phụ kiện",
+            "desc_category_product": "phụ kiện"
+        },
+        {
+            "id_category_product": "41",
+            "title_category_product": "Airpod",
+            "desc_category_product": "Tai nghe không dây"
+        }
+    ],
+    "tbl_product": [
+        {
+            "id_product": "93",
+            "title_product": "iPhone 15 pro max",
+            "price_product": "33990000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A17 Pro 6 nhân",
+            "quantity_product": "80",
+            "image_product": "iphone-15-pro-max-blue-thumbnew-600x6001697471674.jpg",
+            "id_category_product": "36",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "94",
+            "title_product": "iPhone 15 pro",
+            "price_product": "27990000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A17 Pro 6 nhân",
+            "quantity_product": "80",
+            "image_product": "iphone-15-pro-blue-thumbnew-600x6001697472301.jpg",
+            "id_category_product": "36",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "95",
+            "title_product": "iPhone 15 plus",
+            "price_product": "25990000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A16 Bionic",
+            "quantity_product": "80",
+            "image_product": "iphone-15-plus-128gb-xanh-thumb-600x6001697472438.jpg",
+            "id_category_product": "36",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "96",
+            "title_product": "iPhone 15",
+            "price_product": "22990000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A16 Bionic",
+            "quantity_product": "80",
+            "image_product": "iphone-15-hong-thumb-1-600x6001697472459.jpg",
+            "id_category_product": "36",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "97",
+            "title_product": "iPhone 14 pro max",
+            "price_product": "26490000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A16 Bionic",
+            "quantity_product": "0",
+            "image_product": "iphone-14-pro-max-tim-thumb-600x6001697472487.jpg",
+            "id_category_product": "36",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "98",
+            "title_product": "iPhone 14 pro",
+            "price_product": "24190000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A16 Bionic",
+            "quantity_product": "80",
+            "image_product": "iphone-14-pro-vang-thumb-600x6001697472563.jpg",
+            "id_category_product": "36",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "99",
+            "title_product": "iPhone 14 plus",
+            "price_product": "21790000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A15 Bionic",
+            "quantity_product": "80",
+            "image_product": "iPhone-14-plus-thumb-xanh-1-600x6001697472597.jpg",
+            "id_category_product": "36",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "100",
+            "title_product": "iPhone 14",
+            "price_product": "19190000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A15 Bionic",
+            "quantity_product": "80",
+            "image_product": "iPhone-14-thumb-tim-1-600x6001697472632.jpg",
+            "id_category_product": "36",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "101",
+            "title_product": "iPhone 13",
+            "price_product": "16690000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A15 Bionic",
+            "quantity_product": "80",
+            "image_product": "iphone-13-pink-2-600x6001697472682.jpg",
+            "id_category_product": "36",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "102",
+            "title_product": "iPhone 12",
+            "price_product": "13490000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A14 Bionic",
+            "quantity_product": "80",
+            "image_product": "iphone-12-tim-1-600x6001697472714.jpg",
+            "id_category_product": "36",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "103",
+            "title_product": "iPhone 11",
+            "price_product": "10690000",
+            "desc_product": "Hệ điều hành: iOS 17; Chip xử lí (CPU): Apple A13 Bionic",
+            "quantity_product": "80",
+            "image_product": "iphone-11-trang-600x6001697472734.jpg",
+            "id_category_product": "36",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "104",
+            "title_product": "MacBook Air M1",
+            "price_product": "19590000",
+            "desc_product": "Màn hình: 13.3, Retina; CPU: Apple M1; Card: 7 nhân GPU",
+            "quantity_product": "80",
+            "image_product": "macbook-air-m1-2020-gray-600x6001697472982.jpg",
+            "id_category_product": "37",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "105",
+            "title_product": "MacBook Air M2",
+            "price_product": "27090000",
+            "desc_product": "Màn hình: 13.6,Retina; CPU: Apple M2, 100GB\/s; Card: 8 nhân GPU",
+            "quantity_product": "80",
+            "image_product": "apple-macbook-air-m2-2022-xam-600x6001697473026.jpg",
+            "id_category_product": "37",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "106",
+            "title_product": "MacBook Pro M2",
+            "price_product": "30490000",
+            "desc_product": "Màn hình: 13.3,Retina; CPU: Apple M2, 100GB\/s; Card: 10 nhân GPU",
+            "quantity_product": "80",
+            "image_product": "apple-macbook-pro-13-inch-m2-2022-xam-600x6001697473079.jpg",
+            "id_category_product": "37",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "107",
+            "title_product": "MacBook Air M2",
+            "price_product": "32290000",
+            "desc_product": "Màn hình: 15.3,Retina; CPU: Apple M2, 100GB\/s; Card: 10 nhân GPU",
+            "quantity_product": "80",
+            "image_product": "apple-macbook-air-15-inch-m2-2023-gray-thumb-600x6001697473122.jpg",
+            "id_category_product": "37",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "108",
+            "title_product": "MacBook Pro M2",
+            "price_product": "65990000",
+            "desc_product": "Màn hình: 16.2,Retina, 120Hz; CPU: Apple M2 Pro, 200GB\/s; Card: 19 nhân GPU",
+            "quantity_product": "80",
+            "image_product": "macbook-pro-16-inch-m2-pro-gray-thumb-1-600x6001697473233.jpg",
+            "id_category_product": "37",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "109",
+            "title_product": "iPad Gen 9",
+            "price_product": "7490000",
+            "desc_product": "Chip Apple A13 Bionic; RAM 3 GB",
+            "quantity_product": "80",
+            "image_product": "iPad-9-wifi-trang-600x6001697473403.jpg",
+            "id_category_product": "38",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "110",
+            "title_product": "iPad Gen 10",
+            "price_product": "11390000",
+            "desc_product": "Chip Apple A14 Bionic; RAM 4 GB",
+            "quantity_product": "80",
+            "image_product": "iPad-gen-10-1-600x6001697473437.jpg",
+            "id_category_product": "38",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "111",
+            "title_product": "iPad Air 5",
+            "price_product": "14590000",
+            "desc_product": "Chip Apple M1; RAM 8 GB",
+            "quantity_product": "80",
+            "image_product": "ipad-air-5-wifi-grey-thumb-600x6001697473470.jpg",
+            "id_category_product": "38",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "112",
+            "title_product": "iPad Pro M2",
+            "price_product": "20690000",
+            "desc_product": "Chip Apple M2 8 nhân; RAM 8 GB",
+            "quantity_product": "80",
+            "image_product": "ipad-pro-m2-11-inch-wifi-5g-xam-thumb-600x6001697473512.jpg",
+            "id_category_product": "38",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "113",
+            "title_product": "Apple Watch SE 2022",
+            "price_product": "6690000",
+            "desc_product": "Theo dõi sức khỏe: Theo dõi mức độ stress, Tính quãng đường chạy, Đếm số bước chân",
+            "quantity_product": "80",
+            "image_product": "apple-watch-se-2022-44mm-vien-nhom-xanh-thumbn-600x6001697473727.jpg",
+            "id_category_product": "39",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "114",
+            "title_product": "Apple Watch S8",
+            "price_product": "9990000",
+            "desc_product": "Theo dõi sức khỏe: Theo dõi mức độ stress, Tính quãng đường chạy, Đếm số bước chân",
+            "quantity_product": "80",
+            "image_product": "apple-watch-s8-41mm-do-thumb-1-600x6001697473767.jpg",
+            "id_category_product": "39",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "115",
+            "title_product": "Apple Watch Ultra",
+            "price_product": "19990000",
+            "desc_product": "Theo dõi sức khỏe: Theo dõi mức độ stress, Tính quãng đường chạy, Đếm số bước chân",
+            "quantity_product": "80",
+            "image_product": "apple-watch-ultra-alpine-m-cam-thumbnew-1-600x6001697473815.jpg",
+            "id_category_product": "39",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "116",
+            "title_product": "Apple Watch Ultra 2",
+            "price_product": "21990000",
+            "desc_product": "Theo dõi sức khỏe: Theo dõi mức độ stress, Tính quãng đường chạy, Đếm số bước chân",
+            "quantity_product": "80",
+            "image_product": "apple-watch-ultra-lte-49mm-vien-titanium-day-ocean-trang-thumb-4-1-600x6001697473850.jpg",
+            "id_category_product": "39",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "117",
+            "title_product": "Apple Watch S9",
+            "price_product": "21590000",
+            "desc_product": "Theo dõi sức khỏe: Theo dõi mức độ stress, Tính quãng đường chạy, Đếm số bước chân",
+            "quantity_product": "80",
+            "image_product": "apple-watch-s9-lte-45mm-vien-thep-khong-gi-day-silicone-den-thumb-1-600x6001697473881.png",
+            "id_category_product": "39",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "118",
+            "title_product": "Apple Watch SE 2023",
+            "price_product": "8490000",
+            "desc_product": "Theo dõi sức khỏe: Theo dõi mức độ stress, Tính quãng đường chạy, Đếm số bước chân",
+            "quantity_product": "80",
+            "image_product": "apple-watch-se-lte-2023-44mm-vien-nhom-day-silicone-xanh-duong-thumb-1-600x6001697473908.jpg",
+            "id_category_product": "39",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "119",
+            "title_product": "Tai nghe Bluetooth AirPods Pro Gen 2",
+            "price_product": "6200000",
+            "desc_product": "Tai nghe 6h; Hộp sạc 30h",
+            "quantity_product": "0",
+            "image_product": "tai-nghe-bluetooth-airpods-pro-2nd-gen-usb-c-charge-apple-thumb-1-600x6001697474198.jpg",
+            "id_category_product": "41",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "120",
+            "title_product": "Apple Pencil 2",
+            "price_product": "3270000",
+            "desc_product": "Bút ghi trên iPad",
+            "quantity_product": "80",
+            "image_product": "but-cam-ung-apple-pencil-2-mu8f2-180722-105300-600x6001697474249.jpeg",
+            "id_category_product": "40",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "121",
+            "title_product": "Adapter Sạc Type C 20W",
+            "price_product": "495000",
+            "desc_product": "Sạc nhanh 20w",
+            "quantity_product": "80",
+            "image_product": "adapter-sac-type-c-20w-cho-iphone-ipad-apple-mhje3-avatar-1-1-600x60021697474295.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "122",
+            "title_product": "Tai nghe Bluetooth AirPods 3",
+            "price_product": "4290000",
+            "desc_product": "Tai nghe 6h; Hộp sạc 30h",
+            "quantity_product": "80",
+            "image_product": "tai-nghe-bluetooth-airpods-3-lightning-charge-apple-mpny3-trang-thumb1-600x60011697474345.jpeg",
+            "id_category_product": "41",
+            "product_hot": "1"
+        },
+        {
+            "id_product": "123",
+            "title_product": "Tai nghe Có Dây Apple",
+            "price_product": "550000",
+            "desc_product": "Tai nghe có dây",
+            "quantity_product": "80",
+            "image_product": "tai-nghe-earpods-cong-lightning-apple-mmtn2-14-600x600-1-600x6001697474388.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "124",
+            "title_product": "Chuột Bluetooth Apple",
+            "price_product": "1640000",
+            "desc_product": "1500 DPI; Sạc dùng trong 2 tháng",
+            "quantity_product": "80",
+            "image_product": "chuot-bluetooth-apple-mk2e3-trang-thumb-600x6001697474446.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "125",
+            "title_product": "Cáp chuyển đổi USB-C sang Lightning",
+            "price_product": "845000",
+            "desc_product": "Cáp chuyển đổi",
+            "quantity_product": "80",
+            "image_product": "cap-chuyen-doi-usb-c-sang-lightning-apple-muqx3-thumb-1-600x6001697474472.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "126",
+            "title_product": "Cáp Type C - Type C",
+            "price_product": "585000",
+            "desc_product": "60W;  ",
+            "quantity_product": "80",
+            "image_product": "cap-type-c-type-c-1m-apple-mqkj3-thumb-600x6001697474511.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "127",
+            "title_product": "Tai nghe Có Dây Apple",
+            "price_product": "550000",
+            "desc_product": "Type C",
+            "quantity_product": "80",
+            "image_product": "tai-nghe-co-day-apple-mtjy3-thumb-1-600x6001697474546.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "128",
+            "title_product": "Adapter chuyển đổi USB-C sang Apple Pencil",
+            "price_product": "350000",
+            "desc_product": "Cổng ra apple pencil 1",
+            "quantity_product": "80",
+            "image_product": "adapter-usb-c-to-apple-pencil-thumb1-600x6001697474577.jpeg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "130",
+            "title_product": "Cáp Type C - Lightning",
+            "price_product": "495000",
+            "desc_product": "87W",
+            "quantity_product": "80",
+            "image_product": "cap-type-c-lightning-1m-apple-mm0a3-trang-thumb-1-600x6001697474669.jpeg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "131",
+            "title_product": "Tai nghe Bluetooth AirPods 2",
+            "price_product": "2650000",
+            "desc_product": "Tai nghe 6h; Hộp sạc 30h",
+            "quantity_product": "80",
+            "image_product": "tai-nghe-bluetooth-airpods-2-apple-mv7n2-trang-200923-112201-600x6001697474705.jpg",
+            "id_category_product": "41",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "132",
+            "title_product": "Cáp Type C - Type C",
+            "price_product": "690000",
+            "desc_product": "96W",
+            "quantity_product": "0",
+            "image_product": "cap-type-c-type-c-2m-apple-mll82-trang-thumb-600x6001697474734.jpeg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "133",
+            "title_product": "Cáp chuyển đổi Lightning sang 3.5mm",
+            "price_product": "270000",
+            "desc_product": "Cáp chuyển đổi ",
+            "quantity_product": "80",
+            "image_product": "cap-chuyen-doi-lightning-sang-35mm-mmx62-thumb-5-2-600x6001697474777.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "134",
+            "title_product": "Cáp sạc không dây MagSafe Charger",
+            "price_product": "1190000",
+            "desc_product": "Sạc 15W",
+            "quantity_product": "80",
+            "image_product": "cap-sac-khong-day-apple-magsafe-charger-thumb1-1-600x6001697474811.jpeg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "135",
+            "title_product": "Apple TV Siri Remote",
+            "price_product": "1350000",
+            "desc_product": "Điều khiển tivi",
+            "quantity_product": "80",
+            "image_product": "apple-tv-siri-remote-mjfn3-bac-thumb-600x6001697474845.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "136",
+            "title_product": "Bộ chuyển đổi chân sạc Adapter Kit Apple",
+            "price_product": "870000",
+            "desc_product": "chuyển đổi đầu cắm",
+            "quantity_product": "80",
+            "image_product": "chan-sac-world-travel-adapter-kit-apple-md837-thumb-600x6001697474879.jpeg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "137",
+            "title_product": "Cáp chuyển đổi USB-C sang VGA",
+            "price_product": "2070000",
+            "desc_product": "Cáp chuyển đổi",
+            "quantity_product": "80",
+            "image_product": "cap-chuyen-usb-c-sang-vga-multiport-apple-mj1l2-thumb-5-600x6001697474921.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "138",
+            "title_product": "Cáp chuyển đổi Thunderbolt 3 (USB-C)",
+            "price_product": "1350000",
+            "desc_product": "Cáp chuyển đổi",
+            "quantity_product": "80",
+            "image_product": "cap-thunderbolt-3-usb-c-thunderbolt-2-apple-mmel2-thumb-5-600x6001697474946.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "139",
+            "title_product": "Bàn phím Magic Keyboard với Touch ID và Numeric Keypad",
+            "price_product": "3990000",
+            "desc_product": "Bàn phím không dây",
+            "quantity_product": "80",
+            "image_product": "phim-magic-touch-id-numeric-keypad-apple-mk2c3-thumb-6-600x6001697474986.jpg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "140",
+            "title_product": "Bút cảm ứng Apple Pencil 1",
+            "price_product": "2310000",
+            "desc_product": "Bút viết trên iPad",
+            "quantity_product": "80",
+            "image_product": "but-cam-ung-apple-pencil-1-mk0c2-180722-112904-600x6001697475013.jpeg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        },
+        {
+            "id_product": "141",
+            "title_product": "Adapter Sạc 5W ",
+            "price_product": "360000",
+            "desc_product": "5W",
+            "quantity_product": "80",
+            "image_product": "adapter-sac-5w-cho-iphone-ipad-ipod-apple-mgn13-thumb-600x6001697475041.jpeg",
+            "id_category_product": "40",
+            "product_hot": "0"
+        }
+    ],
+    "tbl_customers": [
+        {
+            "customer_id": "2",
+            "customer_name": "Diệp Thiện Ngôn",
+            "customer_phone": "0878623892",
+            "customer_email": "Diepthienbao2k4@gmail.com",
+            "customer_password": "715b1c4c97679dfe3f19e340ee59a23f",
+            "customer_address": "củ chi"
+        }
+    ],
+    "tbl_order": [
+        {
+            "order_id": "11",
+            "order_code": "7028",
+            "order_date": "10\/01\/202408:19:49pm",
+            "order_status": "0"
+        }
+    ],
+    "tbl_order_details": [
+        {
+            "order_details_id": "6",
+            "order_code": "7028",
+            "product_id": "120",
+            "product_quantity": "1",
+            "name": "Diệp Thiện Ngôn",
+            "sodienthoai": "0878623892",
+            "email": "diepngon182004@Gmail.com",
+            "diachi": "Củ Chi",
+            "noidung": "11"
+        }
+    ]
+}

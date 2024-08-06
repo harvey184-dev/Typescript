@@ -1,0 +1,40 @@
+#login {
+    width: 500px;
+    height: 400px;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+    padding: 30px;
+    background-color: black;
+}
+
+input {
+    width: 90%;
+    height: 40px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    border: 3px solid rgb(18, 219, 219);
+    padding-left: 20px;
+}
+
+button {
+    background-color: rgb(18, 219, 219);
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+}
+
+p {
+    font-size: 20px;
+    color: rgb(18, 219, 219);
+    font-weight: 500;
+}
+
+h1 {
+    color: rgb(18, 219, 219);
+}

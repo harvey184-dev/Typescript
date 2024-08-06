@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diệp Thiện Ngôn</title>
+</head>
+
+<body>
+
+    <h1>
+        <!DOCTYPE html>
+        <html lang="en">
+
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>Admin</title>
+            <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        </head>
+        <style>
+            ul.nav.navbar-nav li a {
+                font-size: 15px;
+            }
+        </style>
+
+        <body>
+
+            <div class="container">
+                <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                        <div class="navbar-header">
+                            <a class="navbar-brand" href="../home.html">Admin</a>
+                        </div>
+                        <ul class="nav navbar-nav">
+                            <li class="active"><a href="../home.html">Trang chủ</a></li>
+
+                            <li><a href="#">Thông tin website</a></li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Danh mục Bài viết
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../post/themdm.html">Thêm</a></li>
+                                    <li><a href="../post/lietkedm.html">Liệt kê</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Bài viết
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="../post/themtin.html">Thêm</a></li>
+                                    <li><a href="../post/lietketin.html">Liệt kê</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Danh mục sản phẩm
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="themdm.html">Thêm</a></li>
+                                    <li><a href="lietkedm.html">Liệt kê</a></li>
+
+                                </ul>
+                            </li>
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Sản phẩm
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="themsp.html">Thêm</a></li>
+                                    <li><a href="lietkesp.html">Liệt kê</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li class="dropdown">
+                                <a class="dropdown-toggle" data-toggle="dropdown" href="#">Đơn hàng
+                                    <span class="caret"></span></a>
+                                <ul class="dropdown-menu">
+
+                                    <li><a href="../order/order.html">Liệt kê</a></li>
+
+                                </ul>
+                            </li>
+
+                            <li><a href="../login.html">Đăng xuất</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <h3 style="text-align: center;">Cập nhật sản phẩm</h3>
+
+                <div class="col-md-6">
+                    <form action="lietkesp.html" method="POST" enctype="multipart/form-data">
+                        <div class="form-group">
+                            <label for="email">Tên sản phẩm</label>
+                            <input type="text" value="Adapter Sạc 5W " name="title_product" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Hình ảnh sản phẩm</label>
+                            <input type="file" name="image_product" class="form-control">
+                            <p><img src="../../../public/uploads/product/adapter-sac-5w-cho-iphone-ipad-ipod-apple-mgn13-thumb-600x6001697475041.jpeg"
+                                    height="100" width="100"></p>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Giá sản phẩm</label>
+                            <input type="text" value="360000" name="price_product" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Số lượng sản phẩm</label>
+                            <input type="text" value="80" name="quantity_product" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Miêu tả danh mục</label>
+                            <textarea id="editor" name="desc_product" rows="5" style="resize: none"
+                                class="form-control"><p>5W</p>
+</textarea>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Danh mục sản phẩm</label>
+                            <select class="form-control" name="category_product">
+                                <option value="36">iPhone</option>
+                                <option value="37">Macbook</option>
+                                <option value="38">iPad</option>
+                                <option value="39">Watch</option>
+                                <option selected value="40">Phụ kiện</option>
+                                <option value="41">Airpod</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="pwd">Sản phẩm hot</label>
+                            <select class="form-control" name="product_hot">
+                                <option selected value="0">Không</option>
+                                <option value="1">Có</option>
+
+                            </select>
+                        </div>
+
+                        <button type="submit" class="btn btn-default">Cập nhật sản phẩm</button>
+                    </form>
+
+                </div>
+            </div>
+
+
+        </body>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+        <script src="https://cdn.ckeditor.com/4.15.0/standard/ckeditor.js"></script>
+        <script type="text/javascript">
+
+            CKEDITOR.replace('editor');
+
+        </script>
+
+        </html>
+    </h1>
+
+</body>
+
+</html>
